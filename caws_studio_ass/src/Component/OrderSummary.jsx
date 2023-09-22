@@ -237,7 +237,7 @@ const OrderSummary = () => {
                               <div className='flex-col w-3/6  items-center pt-3 font-semibold text-[0.8rem] grid'>
                                 <div className='pb-3 flex justify-between'>
                                   <span className=''>price($)</span>
-                                  <span>{product?.price}</span>
+                                  <span>${product?.price}</span>
                                 </div>
                                 <div className='pb-3 flex justify-between'>
                                   <span className=''>Quantity</span>
@@ -250,7 +250,7 @@ const OrderSummary = () => {
                                 <div className='pb-3 flex justify-between'>
                                   <span className='edit-text'>Total </span>{" "}
                                   <span>
-                                    {product?.price * product?.quantity}
+                                    ${product?.price * product?.quantity}
                                   </span>
                                 </div>
                               </div>

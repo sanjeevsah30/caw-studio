@@ -9,6 +9,7 @@ const Mainpage = () => {
       <Navbar />
       <OrderHeader/>
       <OrderDeatail/>
+      
     </>
   );
 };
