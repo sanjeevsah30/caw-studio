@@ -1,0 +1,43 @@
+.cart {
+  font-size: 1.2rem;
+  margin: 0 1rem;
+  transition: all 0.3s;
+ 
+
+  P {
+    position: absolute;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font: 900 0.5rem "Roboto";
+    display: grid;
+    place-items: center;
+    background-color: rgb(8, 214, 8);
+    color: white;
+    transform: translate(65%, -150%);
+    border: none;
+  }
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 600;
+}
+.nav-item {
+  font-size: 16px;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  nav {
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}
+
+
